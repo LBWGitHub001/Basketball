@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="Image_handle" type="Image_handle_node" name="Image_handle_node" output="screen"/>
+	<node pkg="camera" type="camera_node" name="camera_node" output="screen"/>
+</launch>
